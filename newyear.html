@@ -1,0 +1,183 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Birthstone+Bounce&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+
+
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+        }
+        body{
+            width:100%;
+            height: 100vh;
+            background-image: url(./images/sparkle2.webp);
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        div{
+            text-align: center;
+            padding-top:140px;
+            align-items:center;
+        }
+        #wishesh{
+             color: gold;
+            font-family: 'Birthstone Bounce', cursive;
+            font-size:60px;
+        }
+
+        #year{
+            width:200px;
+            height:180px;
+            position: relative;
+            top:35px;
+            left:10px;
+            }
+            .touch{
+                text-align: center;
+                padding-top:10px ;
+            }
+            .tsh{
+                color:red;
+                font-family: 'Cormorant Garamond', serif;
+                
+
+                }
+            .menu{
+                text-align: center;
+                }
+                
+                #pnk{
+                    width:35%;
+                    height:15%;
+                    position: fixed;
+                    background-color:lightcoral;
+                    float:left;
+                    font-size:10px;
+                    display: contents;
+                    align-items: center;
+                    padding: 10px;
+                    color:black;
+                    margin-left: 2px;
+
+                    
+                }
+                #grn{
+                    width:35%;
+                    height: 15%;
+                    position: fixed;
+                    background-color:rgb(32, 221, 123);
+                    float:left;
+                    font-size: 10px;
+                    display: contents;
+                    align-items: center;
+                    padding: 10px;
+                    color:black;
+                    margin-left: 2px;
+
+                }
+                #prpl{
+                    width:35%;
+                    height:10%;
+                    position: fixed;
+                    background-color:rgb(129, 108, 143);
+                    float: left;
+                    font-size: 10px;
+                    display: contents;
+                    align-items: center;
+                    padding: 10px;
+                    color:black;
+                    margin-left: 2px;
+                }
+                #pnk,#grn,#prpl{
+                    position: relative;
+                    left: 35%;
+                    top:5%;
+                    
+                }
+                #btn1,#btn2,#btn3{
+                    width:30px;
+                    height: 30px;
+                    border-radius: 100%;
+                    border: 0px;
+
+                }
+                #btn1{
+                    background-color: pink;
+                }
+                #btn2{
+                    background-color: lightgreen;
+                }
+                #btn3{
+                    background-color: blueviolet;
+                }
+                #btn1:hover{
+                    opacity: 0.8;
+                    background-color: bisque;
+                }
+                #btn2:hover{
+                    opacity: 0.8;
+                    background-color: bisque;
+                }
+                #btn3:hover{
+                    opacity: 0.8;
+                    background-color: bisque;
+                }
+                #btn1:active{
+                    opacity: 0.8;
+                }
+                #btn2:active{
+                    opacity: 0.8;
+                }
+                #btn3:active{
+                    opacity: 0.8;
+                }
+                @media screen(max.-width:600px) {
+                    
+                }
+
+                </style>
+</head>
+<body>
+    <div>
+        <img id="year" src="./images/2024.png">
+        <h1 id="wishesh">Happy<br>New year</h1>
+        
+    </div>
+    <div class="touch">
+        <h1 class="tsh">Touch your fav color</h1>
+    </div>
+    <input type="button" value="pnk" id="btn1" style="position:absolute;left:40%; ">
+    <div id="pnk">वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ ।
+                  निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा ॥<br>
+                  Vakratunda Maha-Kaaya Surya-Kotti Samaprabha <br>
+                  Nirvighnam Kuru Me Deva Sarva-Kaaryeshu Sarvadaa ||
+
+        </div>
+    <input type="button" value="grn" id="btn2"  style="position: absolute;left:50%;">
+    <div id="grn">ॐ सर्वाबाधा विनिर्मुक्तो, धन धान्यः सुतान्वितः।<br>
+                  मनुष्यो मत्प्रसादेन भविष्यति न संशयः ॐ ।।<br>
+                  Om Sarvabaadhaa Vinirmukto, Dhan Dhaanyah Sutaanvitah |<br>
+                   Manushyo Matprasaaden Bhavishyati Na Sanshayah Om ||
+
+
+
+    </div>
+    <input type="button" value="prpl" id="btn3" style="position: absolute;left: 60%;" >
+    <div id="prpl">ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् |<br>
+                   उर्वारुकमिव बन्धनान् मृत्योर्मुक्षीय मामृतात् ॥<br>
+                   Om Try- Ambakam Yajaamahe Sugandhim Pusstti-Vardhanam |<br>
+                    Urvaarukam-Iva Bandhanaan Mrtyor-Mukssiiya Maa-[A]mrtaat ||
+
+
+        
+        </div>
+   <script src="hidejs.js"></script>
+    </body>
+</html>
